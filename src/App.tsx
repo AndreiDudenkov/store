@@ -1,3 +1,9 @@
+import { Button } from "@/components/ui/button/button";
+
 export function App() {
-  return <div>Store</div>;
+  return (
+    <div>
+      <Button />
+    </div>
+  );
 }
