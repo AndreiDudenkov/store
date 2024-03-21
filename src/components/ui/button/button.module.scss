@@ -9,12 +9,13 @@
   align-items: center;
   justify-content: center;
 
-  height: 56px;
   padding: 16px 24px;
 
   font-family: Gotham, sans-serif;
   font-size: 14px;
-  font-feature-settings: 'clig' off, 'liga' off;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
   font-weight: 500;
   font-style: normal;
   line-height: 16px;
@@ -24,14 +25,13 @@
   background: var(--Brand-Primary);
   border-radius: 8px;
 
-
   &:focus-visible {
     background: var(--Brand-Primary);
   }
 
   &:hover {
     background: var(--Brand-Hover);
-    box-shadow: 0 12px 16px -7px rgb(21 81 229 / 44%)
+    box-shadow: 0 12px 16px -7px rgb(21 81 229 / 44%);
   }
 }
 
@@ -41,3 +41,8 @@
   font-weight: 700;
 }
 
+.secondary {
+  color:var(--Brand-Primary);
+  background: var(--Brand-Ghost);
+
+}

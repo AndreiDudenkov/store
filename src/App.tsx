@@ -1,9 +1,11 @@
-import { Button } from "@/components/ui/button/button";
+import { StorePage } from "@/components/page/storePage";
 
-export function App() {
+const App = () => {
   return (
     <div>
-      <Button />
+      <StorePage />
     </div>
   );
-}
+};
+
+export default App;
