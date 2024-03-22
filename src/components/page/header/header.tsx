@@ -5,6 +5,8 @@ import cross from "@/assets/icons/Cross.svg";
 import like from "@/assets/icons/Like.svg";
 import line from "@/assets/icons/Line.svg";
 import menu from "@/assets/icons/Menu.svg";
+import messages from "@/assets/icons/Messages.svg";
+import percent from "@/assets/icons/Percent.svg";
 import search from "@/assets/icons/Search.svg";
 import logo from "@/assets/icons/Vector.svg";
 import avatar from "@/assets/images/Avatar.png";
@@ -48,6 +50,15 @@ export const Header = () => {
           <div className={s.link}>Сотрудники</div>
           <div className={s.link}>Шаблоны заказов</div>
           <div className={s.link}>Обращения</div>
+        </div>
+        <div className={s.managerPromotionsBlog}>
+          <div className={s.manager}>
+            <img alt={"messages"} className={s.messages} src={messages} />
+            <p className={s.text}>Ваш менеджер</p>
+          </div>
+          <img alt={"percent"} className={s.percent} src={percent} />
+          <div className={s.text}>Акции</div>
+          <div className={s.text}>Блог</div>
         </div>
       </div>
       <hr className={s.hr} />
